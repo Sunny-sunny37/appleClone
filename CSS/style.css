@@ -1,0 +1,17 @@
+/* First section: MacBook Pro banner starts here */
+.macbook-banner {
+  background-color: #fafafa;
+  padding-top: 12px;
+}
+
+/* Add space between the two links */
+.macbook-links a {
+  margin: 0 8px;
+}
+
+/* Keep the image responsive but prevent it from becoming too large */
+.macbook-image {
+  width: 100%;
+  max-width: 540px;
+}
+/* First section: MacBook Pro banner ends here */
