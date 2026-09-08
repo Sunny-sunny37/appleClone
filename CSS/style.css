@@ -1,5 +1,3 @@
-
-
 /* Footer Styling */
 .footer-wrapper {
   background-color: #f5f5f7;
@@ -103,18 +101,13 @@
     padding-left: 10px;
     position: absolute;
     right: 25px;
-
-    
   }
 }
 
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -141,9 +134,9 @@ img {
   margin-top: 100px;
 }
 /* header styling */
-header{
-    background-color: black;
-    color: white;
+header {
+  background-color: black;
+  color: white;
   font-size: 0.75em;
   font-weight: 200;
   height: auto;
@@ -153,17 +146,33 @@ header{
   color: #fff;
 }
 
-.links-wrapper ul a{
-    text-decoration: none !important;
-    color: white !important;
-    opacity: 1;
+.links-wrapper ul a {
+  text-decoration: none !important;
+  color: white !important;
+  opacity: 1;
 }
-.links-wrapper  ul a:hover{
-    opacity: 0.8;
+.links-wrapper ul a:hover {
+  opacity: 0.8;
 }
 .logo,
 .search,
 .cart {
   width: 18px;
 }
+/* First section: MacBook Pro banner starts here */
+.macbook-banner {
+  background-color: #fafafa;
+  padding-top: 12px;
+}
 
+/* Add space between the two links */
+.macbook-links a {
+  margin: 0 8px;
+}
+
+/* Keep the image responsive but prevent it from becoming too large */
+.macbook-image {
+  width: 100%;
+  max-width: 540px;
+}
+/* First section: MacBook Pro banner ends here */
