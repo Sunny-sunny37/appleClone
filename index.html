@@ -1,18 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple</title>
-    <link rel="stylesheet" href="CSS/bootstrap.css">
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
-    
 
+    <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,600,600i,700,700i,800,800i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header class="fixed-top navwrapper">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="links-wrapper container">
+          <!-- a mubile Hamburger toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#appleNavbar"
+            aria-controls="appleNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <a class="navbar-brand d-md-none mx-auto logo" href="#">
+            <img src="images/icons/logo-sm.png" alt="Apple Logo" />
+          </a>
 
-<script src="JS/jquery-4.0.0.js"></script>
+          <div class="collapse navbar-collapse" id="appleNavbar">
+            <ul
+              class="navbar-nav list-unstyled d-flex justify-content-between align-items-center w-100 mb-0"
+            >
+              <li class="nav-item logo d-none d-md-flex align-items-center">
+                <a href="images/icons/logo-sm.png" class="nav-link p-0">
+                  <img src="images/icons/logo.png" alt=""
+                /></a>
+              </li>
+              <li class="navigationitem">
+                <a href="https://www.apple.com/mac/"> mac</a>
+              </li>
+              <li class="navigationitem">
+                <a href="https://www.apple.com/iphone/"> iphone</a>
+              </li>
+              <li class="navigationitem">
+                <a href="https://www.apple.com/ipad/"> ipad</a>
+              </li>
+              <li class="navigationitem">
+                <a href="https://www.apple.com/watch/"> watch</a>
+              </li>
+              <li class="navigationitem">
+                <a href="https://www.apple.com/services/"> music</a>
+              </li>
+              <li class="navigationitem">
+                <a href="https://www.apple.com/tv-home/"> TV</a>
+              </li>
+              <li class="navigationitem">
+                <a href="https://support.apple.com/?cid=gn-ols-home-hp-tab">
+                  Support</a
+                >
+              </li>
+              <li class="search navigationitem">
+                <a href="/"><img src="./images/icons/search-icon.png" /></a>
+              </li>
+              <li class="cart navigationitem">
+                <a href="/"><img src="./images/icons/cart.png" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <script src="JS/jquery-4.0.0.js"></script>
     <script src="JS/Script.js"></script>
-</body>
+  </body>
 </html>
