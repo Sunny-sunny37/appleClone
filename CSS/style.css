@@ -106,6 +106,37 @@ header {
 
 /* Section four styling ends here */
 
+/* fifth section stying starts here */
+.fifth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+.logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+}
+.tvshow-logo-wraper {
+  padding: 180px 0 150px;
+}
+.watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 0.85em;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
 
 /* Footer Styling */
 
