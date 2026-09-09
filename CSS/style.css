@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -78,34 +76,77 @@ header {
    Developed by : Welde J.
  */
 
-.left-side-wrapper, 
-.right-side-wrapper{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 580px;
-    width: 50%;
+.left-side-wrapper,
+.right-side-wrapper {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+  width: 50%;
 }
-.card-wrapper .left-side-wrapper{
-    background-image: url(../images/home/watch-series-5.jpg);
+.card-wrapper .left-side-wrapper {
+  background-image: url(../images/home/watch-series-5.jpg);
 }
-.card-wrapper .right-side-wrapper{
-    background-image: url(../images/home/apple-card.jpg);
+.card-wrapper .right-side-wrapper {
+  background-image: url(../images/home/apple-card.jpg);
 }
 /* Link Hover Effect for */
-.link-wrapper ul li a:hover{
-    color: #000;    
+.link-wrapper ul li a:hover {
+  color: #000;
 }
-.link-wrapper ul li a::after
-{
-    font-family: "FontAwesome";
-    font-weight: 900;
-    content: "\f105";
-    padding-left: 10px;
+.link-wrapper ul li a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
 }
 
 /* Section four styling ends here */
+/*Fivth Highlight Section */
+.fifth-heghlight-wrapper {
+  background: #fff;
+}
 
+.fifth-heghlight-wrapper .left-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url("../images/home/apple-tv-background.jpg");
+  padding-top: 54px;
+}
+.fifth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+.logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+}
+.tvshow-logo-wraper {
+  padding: 180px 0 150px;
+}
+.watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 0.85em;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+/*Fivth Highlight Section ends here */
 
 /* Footer Styling */
 
@@ -213,4 +254,3 @@ header {
     right: 25px;
   }
 }
-
