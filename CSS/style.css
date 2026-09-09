@@ -107,6 +107,9 @@ header {
   background: #fff;
 }
 
+<<<<<<< HEAD
+/* fifth section stying starts here */
+=======
 .fifth-heghlight-wrapper .left-side-inner-wrapper {
   height: 580px;
   background-position: center;
@@ -116,6 +119,7 @@ header {
   background-image: url("../images/home/apple-tv-background.jpg");
   padding-top: 54px;
 }
+>>>>>>> main
 .fifth-heghlight-wrapper .right-side-inner-wrapper {
   height: 580px;
   background-position: center;
@@ -146,7 +150,10 @@ header {
   content: "\f144";
   padding-left: 15px;
 }
+<<<<<<< HEAD
+=======
 /*Fivth Highlight Section ends here */
+>>>>>>> main
 
 /* Footer Styling */
 
